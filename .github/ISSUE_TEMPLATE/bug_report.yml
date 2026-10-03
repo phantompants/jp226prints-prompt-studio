@@ -1,0 +1,58 @@
+name: Bug report
+description: Report something that does not work as expected.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for helping improve the studio. This report is public. Remove API keys, personal information and confidential material."
+  - type: dropdown
+    id: page
+    attributes:
+      label: Studio page
+      options:
+        - "Vehicle Studio"
+        - "Character Studio"
+        - "Scene & Video Studio"
+        - "Voice Studio"
+        - "Logo & Brand Studio"
+        - "CapCut Template Finder"
+        - "Charity Rally Theme Planner"
+        - "3D Print Studio"
+        - "Workflow / ComfyUI Export"
+        - "Projects & Prompt Lab"
+        - "Whole site / unsure"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and browser
+      placeholder: "e.g. iPad, Safari; Windows, Chrome"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "Describe the selected settings and actions, in order."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+      description: "Include any error message. You can attach a screenshot."
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Additional context or a short prompt example
+      description: "Remove sensitive information before posting."
