@@ -1,6 +1,6 @@
 # JP226Prints Prompt Studio
 
-[Open the live studio](https://jp226prints-prompt-studio.rufusm-au.chatgpt.site)
+[Open the live studio](https://jp226prints-prompt-studio.jp226prints-au.chatgpt.site)
 
 This public repository collects feedback, bug reports and feature requests for JP226Prints Prompt Studio. The site remains hosted separately; this repository contains feedback materials rather than the site source code.
 
@@ -15,7 +15,7 @@ A GitHub account is required to submit feedback. Include the studio page, your d
 
 ## Studio pages
 
-Vehicle Studio; Character Studio; Scene & Video Studio; Voice Studio; Logo & Brand Studio; CapCut Template Finder; Charity Rally Theme Planner; 3D Print Studio; Workflow / ComfyUI Export; Projects & Prompt Lab.
+Vehicle Studio; Character Studio; Scene & Video Studio; Voice Studio; Logo & Brand Studio; CapCut Template Finder; Charity Rally Theme Planner; 3D Print Studio; Workflow / ComfyUI Export; Projects & Prompt Lab; Free API & LLM Resources.
 
 The studio prepares prompts for use with your own AI tools. Research prompts and search links do not guarantee originality, live availability or complete social-media coverage.
 
